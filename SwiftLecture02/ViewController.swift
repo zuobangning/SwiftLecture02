@@ -14,8 +14,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-         print("hello,swift!")
-        print("hello,zuobangning")
+        print("hello,swift!");
+        print("hello,zuobangning");
+        //Command+T
+        //定义变量
+        var name : String = "bangning"
+        //不可更改变量
+        let fullName=name + "zuo"
+        print(fullName);
+        
     }
 
     override func didReceiveMemoryWarning() {
